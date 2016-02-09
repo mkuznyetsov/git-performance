@@ -17,7 +17,9 @@
 #	=============================
 #
 # For each attempt. In the end, a max/min time for each type of operation, as well
-# as average calculation errors will be noted. All calculations are done with integer
+# as average calculation errors will be noted.
+#
+# All calculations are done with integer
 # numbers, so there is an extra error in calculation up to 1 sec.
 #
 # Results will be provided in "push-result" file, it will be rewritten after each execution.
@@ -38,7 +40,7 @@ getDateFromTimestamp() {
 GITHUB_URL=https://github.com/mkuznyetsov/che-core.git
 VSTS_URL=https://che-1.visualstudio.com/DefaultCollection/test/_git/che-core
 
-ATTEMPTS=3
+ATTEMPTS=10
 
 GITHUB_TOTAL_TIME=0
 GITHUB_MIN_TIME=99999999
