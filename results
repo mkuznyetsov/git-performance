@@ -1,0 +1,80 @@
+Result: 1
+GitHub start :15:04:12
+Github end   :15:04:24
+Github time  : 0m:12s
+VSTS start   :15:04:24
+VSTS end     :15:05:16
+VSTS time    : 0m:52s
+==============================
+Result: 2
+GitHub start :15:05:16
+Github end   :15:05:27
+Github time  : 0m:11s
+VSTS start   :15:05:27
+VSTS end     :15:06:10
+VSTS time    : 0m:43s
+==============================
+Result: 3
+GitHub start :15:06:10
+Github end   :15:06:18
+Github time  : 0m:8s
+VSTS start   :15:06:18
+VSTS end     :15:07:13
+VSTS time    : 0m:55s
+==============================
+Result: 4
+GitHub start :15:07:13
+Github end   :15:07:21
+Github time  : 0m:8s
+VSTS start   :15:07:21
+VSTS end     :15:08:08
+VSTS time    : 0m:47s
+==============================
+Result: 5
+GitHub start :15:08:08
+Github end   :15:08:14
+Github time  : 0m:6s
+VSTS start   :15:08:14
+VSTS end     :15:09:30
+VSTS time    : 1m:16s
+==============================
+Result: 6
+GitHub start :15:09:30
+Github end   :15:09:38
+Github time  : 0m:8s
+VSTS start   :15:09:38
+VSTS end     :15:10:23
+VSTS time    : 0m:45s
+==============================
+Result: 7
+GitHub start :15:10:23
+Github end   :15:10:35
+Github time  : 0m:12s
+VSTS start   :15:10:35
+VSTS end     :15:11:11
+VSTS time    : 0m:36s
+==============================
+Result: 8
+GitHub start :15:11:11
+Github end   :15:11:18
+Github time  : 0m:7s
+VSTS start   :15:11:18
+VSTS end     :15:11:47
+VSTS time    : 0m:29s
+==============================
+Result: 9
+GitHub start :15:11:47
+Github end   :15:11:55
+Github time  : 0m:8s
+VSTS start   :15:11:55
+VSTS end     :15:12:40
+VSTS time    : 0m:45s
+==============================
+Result: 10
+GitHub start :15:12:40
+Github end   :15:12:47
+Github time  : 0m:7s
+VSTS start   :15:12:47
+VSTS end     :15:13:39
+VSTS time    : 0m:52s
+==============================
