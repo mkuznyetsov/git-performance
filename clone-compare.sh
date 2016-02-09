@@ -105,12 +105,12 @@ do
     rm -rf che-core
 done
 
-echo "GitHub max time    : ${GITHUB_MAX_TIME}" >> clone-results
-echo "GitHub min time    : ${GITHUB_MIN_TIME}" >> clone-results
-echo "GitHub average time: $(( ${GITHUB_TOTAL_TIME} / ${ATTEMPTS} ))" >> clone-results
-echo "GitHub calc error  : $(( ( ${GITHUB_MAX_TIME} - ${GITHUB_MIN_TIME} ) / 2 ))" >> clone-results
+echo "GitHub max time    : ${GITHUB_MAX_TIME}s" >> clone-results
+echo "GitHub min time    : ${GITHUB_MIN_TIME}s" >> clone-results
+echo "GitHub average time: $(( ${GITHUB_TOTAL_TIME} / ${ATTEMPTS} ))s" >> clone-results
+echo "GitHub calc error  : $(( ( ${GITHUB_MAX_TIME} - ${GITHUB_MIN_TIME} ) / 2 ))s" >> clone-results
 echo "-------------------------------------"
-echo "VSTS max time    : ${VSTS_MAX_TIME}" >> clone-results
-echo "VSTS min time    : ${VSTS_MIN_TIME}" >> clone-results
-echo "VSTS average time: $(( ${VSTS_TOTAL_TIME} / ${ATTEMPTS} ))" >> clone-results
-echo "VSTS calc error  : $(( ( ${VSTS_MAX_TIME} - ${VSTS_MIN_TIME} ) / 2 ))" >> clone-results
+echo "VSTS max time    : ${VSTS_MAX_TIME}s" >> clone-results
+echo "VSTS min time    : ${VSTS_MIN_TIME}s" >> clone-results
+echo "VSTS average time: $(( ${VSTS_TOTAL_TIME} / ${ATTEMPTS} ))s" >> clone-results
+echo "VSTS calc error  : $(( ( ${VSTS_MAX_TIME} - ${VSTS_MIN_TIME} ) / 2 ))s" >> clone-results

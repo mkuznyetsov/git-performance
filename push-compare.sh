@@ -118,12 +118,12 @@ do
     rm -rf che-core
 done
 
-echo "GitHub max time    : ${GITHUB_MAX_TIME}" >> push-results
-echo "GitHub min time    : ${GITHUB_MIN_TIME}" >> push-results
-echo "GitHub average time: $(( ${GITHUB_TOTAL_TIME} / ${ATTEMPTS} ))" >> push-results
-echo "GitHub calc error  : $(( ( ${GITHUB_MAX_TIME} - ${GITHUB_MIN_TIME} ) / 2 ))" >> push-results
+echo "GitHub max time    : ${GITHUB_MAX_TIME}s" >> push-results
+echo "GitHub min time    : ${GITHUB_MIN_TIME}s" >> push-results
+echo "GitHub average time: $(( ${GITHUB_TOTAL_TIME} / ${ATTEMPTS} ))s" >> push-results
+echo "GitHub calc error  : $(( ( ${GITHUB_MAX_TIME} - ${GITHUB_MIN_TIME} ) / 2 ))s" >> push-results
 echo "-------------------------------------"
-echo "VSTS max time    : ${VSTS_MAX_TIME}" >> push-results
-echo "VSTS min time    : ${VSTS_MIN_TIME}" >> push-results
-echo "VSTS average time: $(( ${VSTS_TOTAL_TIME} / ${ATTEMPTS} ))" >> push-results
-echo "VSTS calc error  : $(( ( ${VSTS_MAX_TIME} - ${VSTS_MIN_TIME} ) / 2 ))" >> push-results
+echo "VSTS max time    : ${VSTS_MAX_TIME}s" >> push-results
+echo "VSTS min time    : ${VSTS_MIN_TIME}s" >> push-results
+echo "VSTS average time: $(( ${VSTS_TOTAL_TIME} / ${ATTEMPTS} ))s" >> push-results
+echo "VSTS calc error  : $(( ( ${VSTS_MAX_TIME} - ${VSTS_MIN_TIME} ) / 2 ))s" >> push-results
