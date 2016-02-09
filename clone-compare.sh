@@ -87,7 +87,7 @@ do
     fi
 
     if [[ $VSTS_MIN_TIME -gt $VSTS_TIME_DIFF ]]; then
-        VSTS_MIN_TIME=${VSTS_TIME_DIFF}.
+        VSTS_MIN_TIME=${VSTS_TIME_DIFF}
     fi
 
     echo "Result: $i" >> clone-results

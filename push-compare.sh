@@ -38,7 +38,7 @@ getDateFromTimestamp() {
 GITHUB_URL=https://github.com/mkuznyetsov/che-core.git
 VSTS_URL=https://che-1.visualstudio.com/DefaultCollection/test/_git/che-core
 
-ATTEMPTS=10
+ATTEMPTS=3
 
 GITHUB_TOTAL_TIME=0
 GITHUB_MIN_TIME=99999999
@@ -100,7 +100,7 @@ do
     fi
 
     if [[ $VSTS_MIN_TIME -gt $VSTS_TIME_DIFF ]]; then
-        VSTS_MIN_TIME=${VSTS_TIME_DIFF}.
+        VSTS_MIN_TIME=${VSTS_TIME_DIFF}
     fi
 
     echo "Result: $i" >> push-results
