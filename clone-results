@@ -1,0 +1,14 @@
+Result: 1
+GitHub start :18:15:22
+Github end   :18:15:31
+Github time  : 0m:9s
+==============================
+Result: 2
+GitHub start :18:15:31
+Github end   :18:15:43
+Github time  : 0m:12s
+==============================
+GitHub max time    : 12
+GitHub min time    : 9
+GitHub average time: 10
+GitHub calc error  : 1
