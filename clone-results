@@ -1,24 +1,88 @@
 Result: 1
-GitHub start :18:39:23
-Github end   :18:39:29
-Github time  : 0m:6s
-VSTS start   :18:39:29
-VSTS end     :18:40:28
-VSTS time    : 0m:59s
+GitHub start :19:17:13
+Github end   :19:17:26
+Github time  : 0m:13s
+VSTS start   :19:17:26
+VSTS end     :19:18:14
+VSTS time    : 0m:48s
 ==============================
 Result: 2
-GitHub start :18:40:28
-Github end   :18:40:37
-Github time  : 0m:9s
-VSTS start   :18:40:37
-VSTS end     :18:41:58
-VSTS time    : 1m:21s
+GitHub start :19:18:14
+Github end   :19:18:20
+Github time  : 0m:6s
+VSTS start   :19:18:20
+VSTS end     :19:19:02
+VSTS time    : 0m:42s
 ==============================
-GitHub max time    : 9
-GitHub min time    : 6
-GitHub average time: 7
-GitHub calc error  : 1
-VSTS max time    : 99999999
-VSTS min time    : 0
-VSTS average time: 70
-VSTS calc error  : 49999999
+Result: 3
+GitHub start :19:19:02
+Github end   :19:19:11
+Github time  : 0m:9s
+VSTS start   :19:19:12
+VSTS end     :19:20:02
+VSTS time    : 0m:50s
+==============================
+Result: 4
+GitHub start :19:20:03
+Github end   :19:20:12
+Github time  : 0m:9s
+VSTS start   :19:20:12
+VSTS end     :19:21:02
+VSTS time    : 0m:50s
+==============================
+Result: 5
+GitHub start :19:21:02
+Github end   :19:21:19
+Github time  : 0m:17s
+VSTS start   :19:21:19
+VSTS end     :19:21:57
+VSTS time    : 0m:38s
+==============================
+Result: 6
+GitHub start :19:21:57
+Github end   :19:22:05
+Github time  : 0m:8s
+VSTS start   :19:22:05
+VSTS end     :19:22:57
+VSTS time    : 0m:52s
+==============================
+Result: 7
+GitHub start :19:22:57
+Github end   :19:23:04
+Github time  : 0m:7s
+VSTS start   :19:23:04
+VSTS end     :19:24:22
+VSTS time    : 1m:18s
+==============================
+Result: 8
+GitHub start :19:24:22
+Github end   :19:24:28
+Github time  : 0m:6s
+VSTS start   :19:24:28
+VSTS end     :19:25:37
+VSTS time    : 1m:9s
+==============================
+Result: 9
+GitHub start :19:25:37
+Github end   :19:25:43
+Github time  : 0m:6s
+VSTS start   :19:25:43
+VSTS end     :19:26:35
+VSTS time    : 0m:52s
+==============================
+Result: 10
+GitHub start :19:26:35
+Github end   :19:26:41
+Github time  : 0m:6s
+VSTS start   :19:26:41
+VSTS end     :19:27:22
+VSTS time    : 0m:41s
+==============================
+GitHub max time    : 17s
+GitHub min time    : 6s
+GitHub average time: 8s
+GitHub calc error  : 5s
+VSTS max time    : 78s
+VSTS min time    : 38s
+VSTS average time: 52s
+VSTS calc error  : 20s

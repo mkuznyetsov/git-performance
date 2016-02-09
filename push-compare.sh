@@ -127,3 +127,5 @@ echo "VSTS max time    : ${VSTS_MAX_TIME}s" >> push-results
 echo "VSTS min time    : ${VSTS_MIN_TIME}s" >> push-results
 echo "VSTS average time: $(( ${VSTS_TOTAL_TIME} / ${ATTEMPTS} ))s" >> push-results
 echo "VSTS calc error  : $(( ( ${VSTS_MAX_TIME} - ${VSTS_MIN_TIME} ) / 2 ))s" >> push-results
+echo "-------------------------------------" >> push-results
+echo "1 second extra calculation error due to integer arithmetics" >> push-results

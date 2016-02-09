@@ -114,3 +114,5 @@ echo "VSTS max time    : ${VSTS_MAX_TIME}s" >> clone-results
 echo "VSTS min time    : ${VSTS_MIN_TIME}s" >> clone-results
 echo "VSTS average time: $(( ${VSTS_TOTAL_TIME} / ${ATTEMPTS} ))s" >> clone-results
 echo "VSTS calc error  : $(( ( ${VSTS_MAX_TIME} - ${VSTS_MIN_TIME} ) / 2 ))s" >> clone-results
+echo "-------------------------------------" >> clone-results
+echo "1 second extra calculation error due to integer arithmetics" >> clone-results
