@@ -75,15 +75,33 @@ do
     GITHUB_MINUTES_DIFF=$(( ${GITHUB_TIME_DIFF} / 60 ))
     GITHUB_SECONDS_DIFF=$(( ${GITHUB_TIME_DIFF} - ${GITHUB_MINUTES_DIFF} * 60 ))
 
+    GITHUB_TOTAL_TIME=$(( $GITHUB_TIME_DIFF + $GITHUB_TOTAL_TIME ))
+    if [[ $GITHUB_MAX_TIME -lt $GITHUB_TIME_DIFF ]]; then
+	GITHUB_MAX_TIME=${GITHUB_TIME_DIFF}
+    fi
+
+    if [[ $GITHUB_MIN_TIME -gt $GITHUB_TIME_DIFF ]]; then
+	GITHUB_MIN_TIME=${GITHUB_TIME_DIFF}
+    fi
+
     rm -rf che-core
 
     VSTS_START_TIME=$(date "+%s")
     git push msoft perfTest -fu
     VSTS_END_TIME=$(date "+%s")
-
     VSTS_TIME_DIFF=$(( ${VSTS_END_TIME} - ${VSTS_START_TIME} ))
+
     VSTS_MINUTES_DIFF=$(( ${VSTS_TIME_DIFF} / 60 ))
     VSTS_SECONDS_DIFF=$(( ${VSTS_TIME_DIFF} - ${VSTS_MINUTES_DIFF} * 60 ))
+
+    VSTS_TOTAL_TIME=$(( $VSTS_TIME_DIFF + $VSTS_TOTAL_TIME ))
+    if [[ $VSTS_MAX_TIME -lt $VSTS_TIME_DIFF ]]; then
+        VSTS_MAX_TIME=${VSTS_TIME_DIFF}
+    fi
+
+    if [[ $VSTS_MIN_TIME -gt $VSTS_TIME_DIFF ]]; then
+        VSTS_MIN_TIME=${VSTS_TIME_DIFF}.
+    fi
 
     echo "Result: $i" >> push-results
     echo "GitHub start :"$(getDateFromTimestamp $GITHUB_START_TIME) >> push-results
