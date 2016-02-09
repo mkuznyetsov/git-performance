@@ -35,7 +35,7 @@
       <file leaf-file-name="push-compare.sh" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/push-compare.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33266532">
+            <state vertical-scroll-proportion="0.6032064">
               <caret line="54" column="21" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="21" />
               <folding />
             </state>
@@ -235,12 +235,12 @@
       <option name="number" value="Default" />
       <updated>1455035392677</updated>
       <workItem from="1455035393928" duration="15000" />
-      <workItem from="1455035426502" duration="2044000" />
+      <workItem from="1455035426502" duration="2057000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2059000" />
+    <option name="totallyTimeSpent" value="2072000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="-1" width="1680" height="1051" extended-state="6" />
@@ -309,7 +309,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/push-compare.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33266532">
+        <state vertical-scroll-proportion="0.6032064">
           <caret line="54" column="21" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="21" />
           <folding />
         </state>
