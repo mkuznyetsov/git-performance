@@ -1,4 +1,9 @@
 #!/bin/bash
+# IMPORTANT! as soon as you must enter credentials for VSTS repo when performing
+# operation, one way to avoid this is allowing caching credential with command:
+#   git config credential.helper 'cache --timeout=1800'
+# with timeout in secons
+#
 # Calculate git push operation time to GitHub and MS VSTS.
 # Script firstly clones forked che-core, then goes into branch perfTest.
 # After that, during the iteration, it creates small random modification in a file,
@@ -23,7 +28,6 @@
 # numbers, so there is an extra error in calculation up to 1 sec.
 #
 # Results will be provided in "push-result" file, it will be rewritten after each execution.
-#
 
 getDateFromTimestamp() {
     local cmdLineOption="--date @"
@@ -86,8 +90,6 @@ do
 	GITHUB_MIN_TIME=${GITHUB_TIME_DIFF}
     fi
 
-    rm -rf che-core
-
     VSTS_START_TIME=$(date "+%s")
     git push msoft perfTest -fu
     VSTS_END_TIME=$(date "+%s")
@@ -113,10 +115,10 @@ do
     echo "VSTS end     :"$(getDateFromTimestamp $VSTS_END_TIME) >> push-results
     echo "VSTS time    : ${VSTS_MINUTES_DIFF}m:${VSTS_SECONDS_DIFF}s" >> push-results
     echo "==============================" >> push-results
-
-    # cleanup
-    rm -rf che-core
 done
+
+# cleanup
+rm -rf che-core
 
 echo "GitHub max time    : ${GITHUB_MAX_TIME}s" >> push-results
 echo "GitHub min time    : ${GITHUB_MIN_TIME}s" >> push-results

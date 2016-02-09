@@ -4,8 +4,6 @@
     <list default="true" id="6a6305dc-5653-480c-a825-55307749ac8a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clone-compare.sh" afterPath="$PROJECT_DIR$/clone-compare.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clone-results" afterPath="$PROJECT_DIR$/clone-results" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/push-compare.sh" afterPath="$PROJECT_DIR$/push-compare.sh" />
     </list>
     <ignored path="test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,21 +25,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="clone-compare.sh" pinned="false" current-in-tab="false">
+      <file leaf-file-name="clone-compare.sh" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/clone-compare.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.709678">
-              <caret line="117" column="83" selection-start-line="117" selection-start-column="83" selection-end-line="117" selection-end-column="83" />
+            <state vertical-scroll-proportion="0.7815631">
+              <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="push-compare.sh" pinned="false" current-in-tab="true">
+      <file leaf-file-name="push-compare.sh" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/push-compare.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.3306613">
-              <caret line="130" column="82" selection-start-line="130" selection-start-column="82" selection-end-line="130" selection-end-column="82" />
+            <state vertical-scroll-proportion="-1.0">
+              <caret line="67" column="30" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -51,7 +49,7 @@
         <entry file="file://$PROJECT_DIR$/clone-results">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="59" column="7" selection-start-line="59" selection-start-column="7" selection-end-line="59" selection-end-column="7" />
+              <caret line="85" column="22" selection-start-line="85" selection-start-column="22" selection-end-line="85" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -71,8 +69,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/clone-results" />
-        <option value="$PROJECT_DIR$/clone-compare.sh" />
         <option value="$PROJECT_DIR$/push-compare.sh" />
+        <option value="$PROJECT_DIR$/clone-compare.sh" />
       </list>
     </option>
   </component>
@@ -593,12 +591,12 @@
       <option name="number" value="Default" />
       <updated>1455035392677</updated>
       <workItem from="1455035393928" duration="15000" />
-      <workItem from="1455035426502" duration="3517000" />
+      <workItem from="1455035426502" duration="3802000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3532000" />
+    <option name="totallyTimeSpent" value="3817000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="-1" width="1680" height="1051" extended-state="6" />
@@ -611,7 +609,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3384333" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38248336" sideWeight="0.497552" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38248336" sideWeight="0.497552" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21419829" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -657,26 +655,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/push-compare.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.0">
+          <caret line="67" column="30" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/clone-results">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="59" column="7" selection-start-line="59" selection-start-column="7" selection-end-line="59" selection-end-column="7" />
+          <caret line="85" column="22" selection-start-line="85" selection-start-column="22" selection-end-line="85" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/clone-compare.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.709678">
-          <caret line="117" column="83" selection-start-line="117" selection-start-column="83" selection-end-line="117" selection-end-column="83" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/push-compare.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.3306613">
-          <caret line="130" column="82" selection-start-line="130" selection-start-column="82" selection-end-line="130" selection-end-column="82" />
+        <state vertical-scroll-proportion="0.7815631">
+          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
           <folding />
         </state>
       </provider>

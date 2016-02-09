@@ -1,4 +1,9 @@
 #!/bin/bash
+# IMPORTANT! as soon as you must enter credentials for VSTS repo when performing
+# operation, one way to avoid this is allowing caching credential with command:
+#   git config credential.helper 'cache --timeout=1800'
+# with timeout in secons
+
 # Calculate git clone operation time from GitHub and MS VSTS.
 # Script performs cloning of che-core multiple times, that are defined by variable
 # ATTEMPTS. Cloning will happen in the directory, where the script is launched,
@@ -22,7 +27,7 @@
 # numbers, so there is an extra error in calculation up to 1 sec.
 #
 # Results will be provided in "clone-result" file, it will be rewritten after each execution. 
-#
+
 
 getDateFromTimestamp() {
     local cmdLineOption="--date @"
