@@ -6,3 +6,11 @@ VSTS start   :19:30:34
 VSTS end     :19:30:40
 VSTS time    : 0m:6s
 ==============================
+Result: 2
+GitHub start :19:30:40
+Github end   :19:30:43
+Github time  : 0m:3s
+VSTS start   :19:30:43
+VSTS end     :19:30:47
+VSTS time    : 0m:4s
+==============================
