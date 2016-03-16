@@ -3,7 +3,7 @@
 # Script performs cloning of che-core multiple times, that are defined by variable
 # ATTEMPTS. Cloning will happen in the directory, where the script is launched,
 # so it will be rewritten after each iteration. Also, che-core direcotry will be
-# removed before and after execution.
+# removed before and after execsssution.
 # In result, there will be written data in the following format:
 #
 #	Attemp X:
