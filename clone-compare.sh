@@ -10,7 +10,7 @@
 #	GitHub start: hh:mm:ss
 #	GitHub end  : hh:mm:ss
 #	GitHub time : XXm:XXs
-#	VSTS start  : hh:mm:ss
+#	VSTS start  : hh:mm:ssdasdasfsfs
 #	VSTS end    : hh:mm:ssdasdasd
 #	VSTS time   : XXm:XXs
 #	=============================
