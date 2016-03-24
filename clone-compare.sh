@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bashss
 # Calculate git clone operation time from GitHub and MS VSTS.
 # Script performs cloning of che-core multiple times, that are defined by variable
 # ATTEMPTS. Cloning will happen in the directory, where the script is launched,
